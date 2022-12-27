@@ -1,0 +1,171 @@
+#canvas_id{
+    border: 3px solid black;
+    position: absolute;
+    top: 4.5cm;
+    left: 6cm;
+    background-color: white;
+}
+
+#btn_undo{
+    position:absolute;
+    top: 16cm;
+    left: 30cm;
+}
+
+#btn_redo{
+    position:absolute;
+    top: 16cm;
+    left: 31.5cm;
+}
+
+#btn_reset{
+    position:absolute;
+    top: 14.5cm;
+    left: 30cm;
+}
+
+#btn_text{
+    position:absolute;
+    top: 14.5cm;
+    left: 31.5cm;
+}
+
+#btn_download{
+    position:absolute;
+    top: 13cm;
+    left: 30cm;
+}
+
+#btn_upload{
+    display: none;
+}
+
+#upload_pos{
+    position:absolute;
+    top: 13cm;
+    left: 31.5cm;
+}
+
+#btn_triangle{
+    position:absolute;
+    top: 11.5cm;
+    left: 30cm;
+}
+
+#btn_circle{
+    position:absolute;
+    top: 11.5cm;
+    left: 31.5cm;
+}
+
+#btn_rectangle{
+    position:absolute;
+    top: 10cm;
+    left: 30cm;
+}
+
+#btn_line{
+    position:absolute;
+    top: 10cm;
+    left: 31.5cm;
+}
+
+#btn_brush{
+    position:absolute;
+    top: 8.5cm;
+    left: 30cm;
+}
+
+#btn_eraser{
+    position:absolute;
+    top: 8.5cm;
+    left: 31.5cm;
+}
+
+#pen_range{
+    position:absolute;
+    top: 7.5cm;
+    left: 31.5cm;
+}
+
+#pen_size{
+    position:absolute;
+    top: 7.5cm;
+    left: 30cm;
+}
+
+#favcolor{
+    position:absolute;
+    top: 6.6cm;
+    left: 31.5cm;
+}
+
+#color{
+    position:absolute;
+    top: 6.7cm;
+    left: 30cm;
+}
+
+#btn_sel_eraser{
+    position:absolute;
+    top: 8.5cm;
+    left: 33cm;
+}
+
+#select_size{
+    position:absolute;
+    top: 5cm;
+    left: 31.7cm;
+}
+
+#select_style{
+    position:absolute;
+    top: 5.7cm;
+    left: 32cm;
+}
+
+#welcome{
+    position:absolute;
+    top: 1.5cm;
+    left: 10cm;
+}
+
+.blink{
+    animation: blink 2s infinite;
+}
+
+@keyframes blink {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#gura_type{
+    position:absolute;
+    top: 0cm;
+    left: 25cm;
+}
+
+#text_size_l{
+    position:absolute;
+    top: 5cm;
+    left: 30cm;
+}
+
+#text_style_l{
+    position:absolute;
+    top: 5.7cm;
+    left: 30cm;
+}
+
+#btn_color_brush{
+    position:absolute;
+    top: 10cm;
+    left: 33cm;
+}

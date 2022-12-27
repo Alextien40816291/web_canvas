@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Web_Canvas_108072241</title>
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<script src="index.js" defer></script>
+	</head>
+	<body background="wood_background.webp">
+		<canvas id="canvas_id" width="900" height="500"></canvas>
+			<input type="image" onclick="undo()" src="undo_icon.png" id="btn_undo"></button>
+			<input type="image" onclick="redo()" src="redo_icon.png" id="btn_redo"></button>
+			<input type="image" onclick="clear_canvas()" src="reset_icon.png" id="btn_reset"></button>
+			<input type="image" onclick="text()" src="text_icon.png" id="btn_text"></button>
+			
+			<label for="btn_upload" id="upload_pos"><img src="upload_icon.png"></label>
+			<input type="file" id="btn_upload">
+
+			<input type="image" onclick="download()" src="download_icon.png" id="btn_download"></button>
+			<input type="image" onclick="triangle()" src="triangle_icon.png" id="btn_triangle"></button>
+			<input type="image" onclick="circle()" src="circle_icon.png" id="btn_circle"></button>
+			<input type="image" onclick="rectangle()" src="rectangle_icon.png" id="btn_rectangle"></button>
+			<input type="image" onclick="straight_line()" src="line_icon.png" id="btn_line"></button>
+			<input type="image" onclick="simple_draw()" src="brush_icon.jpg" id="btn_brush"></button>
+			<input type="image" onclick="eraser()" src="eraser_icon.jpg" id="btn_eraser"></button>
+			<input type="image" onclick="select_eraser()" src="select_eraser.png" id="btn_sel_eraser"></button>
+
+			<input type="image" onclick="color_brush()" src="color_brush_icon.png" id="btn_color_brush"></button>
+
+			<input type="range" min="1" max="30" value="10" id="pen_range">
+			<input type="color" name="favcolor" id="favcolor" value="#000000" >
+			<!--onchange="favColor(this)"-->
+			<select class="form-select" id="select_size" aria-label="select">
+				<option value="20px" selected>20px</option>
+				<option value="30px">30px</option>
+				<option value="40px">40px</option>
+				<option value="50px">50px</option>
+			</select>
+
+			<select class="form-select" id="select_style" aria-label="select">
+                <option selected>Arial</option>
+                <option>Times New Roman</option>
+                <option>Broadway</option>
+                <option>Curlz MT</option>
+            </select>
+			<span class="blink" style="color:aqua;font-size:60px;font-style:italic" id="welcome">Welcome to my canvas!</span>
+			<img src="gura_type.gif" id="gura_type">
+			<label id="text_size_l">Textsize:</label>
+			<label id="text_style_l">Text style:</label>
+			<label id="color">Color:</label>
+			<label id="pen_size">Pen size:</label>
+ 	</body>
+</html>
